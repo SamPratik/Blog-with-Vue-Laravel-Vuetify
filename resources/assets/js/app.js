@@ -25,10 +25,13 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 var Home = require('./components/Home.vue');
 var AppToolbar = require('./components/AppToolbar.vue');
 var ContactUs = require('./components/ContactUs.vue');
+var AppFooter = require('./components/AppFooter.vue');
+var SignUp = require('./components/SignUp.vue');
 
 const routes = [
   { path: '/home', component: Home },
-  { path: '/contact-us', component: ContactUs }
+  { path: '/contact-us', component: ContactUs },
+  { path: '/signup', component: SignUp }
 ]
 
 const router = new VueRouter({
@@ -40,6 +43,8 @@ const app = new Vue({
     router,
     components: {
       Home,
-      AppToolbar
+      AppToolbar,
+      AppFooter,
+      SignUp
     }
 });

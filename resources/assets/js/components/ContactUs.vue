@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="red lighten-5">
     <v-flex xs12 mt-5>
       <h1 class="text-xs-center">CONTACT US</h1>
     </v-flex><br>
@@ -33,7 +33,7 @@
           textarea
         ></v-text-field>
       </v-form>
-    </v-flex>
+    </v-flex><br>
   </div>
 </template>
 
