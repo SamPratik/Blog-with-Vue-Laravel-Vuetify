@@ -69739,7 +69739,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -69814,21 +69814,25 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       // usernameExists: false,
       // usernameWhiteSpace: false,
+      usernames: [],
       usernameErrorMessage: '',
       usernameErrorStatus: false,
-      usernames: ['Pratik', 'Affan', 'Shihab', 'Pranto'],
       valid: false,
       name: '',
       nameRules: [function (v) {
         return !!v || 'Name is required';
-      }, function (v) {
-        return v.length <= 10 || 'Name must be less than 10 characters';
       }],
       email: '',
       emailRules: [function (v) {
@@ -69845,15 +69849,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       }],
       a1: null,
       countries: ["Afghanistan", "Åland Islands", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua And Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia, Plurinational State Of", "Bonaire, Sint Eustatius And Saba", "Bosnia And Herzegovina", "Botswana", "Bouvet Island", "Brazil", "British Indian Ocean Territory", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Cocos (keeling) Islands", "Colombia", "Comoros", "Congo", "Congo, The Democratic Republic Of The", "Cook Islands", "Costa Rica", "Côte D'ivoire", "Croatia", "Cuba", "Curaçao", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands (malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern Territories", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-bissau", "Guyana", "Haiti", "Heard Island And Mcdonald Islands", "Holy See (vatican City State)", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran, Islamic Republic Of", "Iraq", "Ireland", "Isle Of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, Democratic People's Republic Of", "Korea, Republic Of", "Kuwait", "Kyrgyzstan", "Lao People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macao", "Macedonia, The Former Yugoslav Republic Of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States Of", "Moldova, Republic Of", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Palestine, State Of", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcairn", "Poland", "Portugal", "Puerto Rico", "Qatar", "Réunion", "Romania", "Russian Federation", "Rwanda", "Saint Barthélemy", "Saint Helena, Ascension And Tristan Da Cunha", "Saint Kitts And Nevis", "Saint Lucia", "Saint Martin (french Part)", "Saint Pierre And Miquelon", "Saint Vincent And The Grenadines", "Samoa", "San Marino", "Sao Tome And Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Sint Maarten (dutch Part)", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia And The South Sandwich Islands", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Svalbard And Jan Mayen", "Swaziland", "Sweden", "Switzerland", "Syrian Arab Republic", "Taiwan, Province Of China", "Tajikistan", "Tanzania, United Republic Of", "Thailand", "Timor-leste", "Togo", "Tokelau", "Tonga", "Trinidad And Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks And Caicos Islands", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "United States Minor Outlying Islands", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela, Bolivarian Republic Of", "Viet Nam", "Virgin Islands, British", "Virgin Islands, U.s.", "Wallis And Futuna", "Western Sahara", "Yemen", "Zambia", "Zimbabwe"],
+      countryRules: [function (v) {
+        return !!v || 'Country is required';
+      }],
       e1: true,
       password: '',
+      passwordRules: [function (v) {
+        return !!v || 'Password is required';
+      }, function (v) {
+        return v.length >= 8 || 'Password must have 8 characters';
+      }],
       e2: true,
       confirmPassword: ''
     };
   },
+  created: function created() {
+    //do something after creating vue instance
+    this.usernames = ['Pratik', 'Affan', 'Shihab', 'Pranto'];
+  },
+
   watch: {
     username: function username() {
       if (this.username.length > 0) {
+        // check that any username exists same as that...
         for (var i = 0; i < this.usernames.length; i++) {
           if (this.usernames[i] == this.username) {
             this.usernameErrorStatus = true;
@@ -69863,12 +69881,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.usernameErrorStatus = false;
           }
         }
+        // check for whitespace in username...
         var containsWhiteSpace = /\s/;
         if (containsWhiteSpace.test(this.username)) {
           this.usernameErrorStatus = true;
           this.usernameErrorMessage = 'Username cannot contain white space!';
+          // return;
+        } else {}
+
+        if (this.username.length > 15) {
+          this.usernameErrorStatus = true;
+          this.usernameErrorMessage = 'Username can contain maximum 15 characters!';
         }
       }
+    }
+  },
+  computed: {
+    comparePasswords: function comparePasswords() {
+      return this.password !== this.confirmPassword ? false : true;
     }
   }
 });
@@ -69963,6 +69993,7 @@ var render = function() {
                 attrs: {
                   items: _vm.countries,
                   label: "Select Country",
+                  rules: _vm.countryRules,
                   autocomplete: "",
                   required: ""
                 },
@@ -69982,6 +70013,7 @@ var render = function() {
                     return (_vm.e1 = !_vm.e1)
                   },
                   type: _vm.e1 ? "password" : "text",
+                  rules: _vm.passwordRules,
                   label: "Enter your password",
                   hint: "At least 8 characters",
                   min: "8",
@@ -70003,6 +70035,18 @@ var render = function() {
                     return (_vm.e2 = !_vm.e2)
                   },
                   type: _vm.e2 ? "password" : "text",
+                  rules: [
+                    function(v) {
+                      return v.length > 0 || "Type your password again!"
+                    },
+                    _vm.comparePasswords || "Passwords do not match!",
+                    function(v) {
+                      return (
+                        v.length >= 8 ||
+                        "Password must contain atleast 8 characters"
+                      )
+                    }
+                  ],
                   label: "Enter your password again",
                   hint: "At least 8 characters",
                   min: "8",
